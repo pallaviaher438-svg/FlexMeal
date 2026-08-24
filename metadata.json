@@ -1,0 +1,6 @@
+{
+  "name": "FlexMeal - Flexible Meal Subscriptions",
+  "description": "Customizable, healthy, and affordable meal subscriptions with interactive weekly menus, Flex Credits, and dietary options.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
