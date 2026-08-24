@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import flexmealLogo from '../assets/images/flexmeal_logo_1787381955038.jpg';
 import { 
   Sparkles, 
   Utensils, 
@@ -58,7 +59,7 @@ export const Header: React.FC<HeaderProps> = ({
           >
             <div className="w-11 h-11 md:w-13 md:h-13 rounded-2xl overflow-hidden border border-emerald-800/10 shadow-sm shadow-emerald-950/10 group-hover:scale-105 transition-all bg-[#faf8f5] flex items-center justify-center p-0.5">
               <img 
-                src="/flexmeal-logo.jpg" 
+                src={flexmealLogo} 
                 alt="FlexMeal Logo"
                 className="w-full h-full object-contain rounded-xl"
               />

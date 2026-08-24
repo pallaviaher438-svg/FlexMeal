@@ -1,4 +1,5 @@
 import React, { useState, useMemo, useEffect } from 'react';
+import flexmealLogo from './assets/images/flexmeal_logo_1787381955038.jpg';
 import { 
   DayOfWeek, 
   MealTime, 
@@ -698,7 +699,7 @@ export default function App() {
           <div className="flex items-center gap-3">
             <div className="w-8 h-8 rounded-lg overflow-hidden border border-gray-200 bg-white flex items-center justify-center p-0.5 shrink-0">
               <img 
-                src="/flexmeal-logo.jpg" 
+                src={flexmealLogo} 
                 alt="FlexMeal"
                 className="w-full h-full object-contain rounded"
               />

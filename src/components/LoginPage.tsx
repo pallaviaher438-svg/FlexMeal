@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { UserRole, UserProfile } from '../types';
+import flexmealLogo from '../assets/images/flexmeal_logo_1787381955038.jpg';
 import { 
   ShieldCheck, 
   Sparkles, 
@@ -232,7 +233,7 @@ export const LoginPage: React.FC<LoginPageProps> = ({ onLogin }) => {
       <div className="sm:mx-auto sm:w-full sm:max-w-md text-center space-y-3 relative z-10">
         <div className="inline-flex items-center justify-center p-2 bg-white rounded-3xl shadow-sm border border-gray-200/80 mb-0.5 hover:shadow-md transition-shadow">
           <img 
-            src="/flexmeal-logo.jpg" 
+            src={flexmealLogo} 
             alt="FlexMeal Logo"
             className="w-14 h-14 sm:w-16 sm:h-16 object-contain rounded-2xl"
           />
